@@ -134,3 +134,128 @@ if (itemImg && itemTitle && menuLink) {
 	}
 }
 
+const itemTitle1 = document.querySelector('.menu__item__title_1');
+const itemLink1 = document.querySelectorAll('.menu__item__link_1');
+const itemList1 = document.querySelector('.menu__item__list_1');
+if (itemLink1 && itemLink1) {
+	for (let i = 0; i < itemLink1.length; i++) {
+		itemLink1[i].addEventListener("mouseover", () => {
+			itemTitle1.classList.add('_active');
+			itemList1.addEventListener("mouseleave", () => {
+				itemTitle1.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle2 = document.querySelector('.menu__item__title_2');
+const itemLink2 = document.querySelectorAll('.menu__item__link_2');
+const itemList2 = document.querySelector('.menu__item__list_2');
+if (itemLink2 && itemLink2) {
+	for (let i = 0; i < itemLink2.length; i++) {
+		itemLink2[i].addEventListener("mouseover", () => {
+			itemTitle2.classList.add('_active');
+			itemList2.addEventListener("mouseleave", () => {
+				itemTitle2.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle3 = document.querySelector('.menu__item__title_3');
+const itemLink3 = document.querySelectorAll('.menu__item__link_3');
+const itemList3 = document.querySelector('.menu__item__list_3');
+if (itemLink3 && itemLink3) {
+	for (let i = 0; i < itemLink3.length; i++) {
+		itemLink3[i].addEventListener("mouseover", () => {
+			itemTitle3.classList.add('_active');
+			itemList3.addEventListener("mouseleave", () => {
+				itemTitle3.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle4 = document.querySelector('.menu__item__title_4');
+const itemLink4 = document.querySelectorAll('.menu__item__link_4');
+const itemList4 = document.querySelector('.menu__item__list_4');
+if (itemLink4 && itemLink4) {
+	for (let i = 0; i < itemLink4.length; i++) {
+		itemLink4[i].addEventListener("mouseover", () => {
+			itemTitle4.classList.add('_active');
+			itemList4.addEventListener("mouseleave", () => {
+				itemTitle4.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle5 = document.querySelector('.menu__item__title_5');
+const itemLink5 = document.querySelectorAll('.menu__item__link_5');
+const itemList5 = document.querySelector('.menu__item__list_5');
+if (itemLink5 && itemLink5) {
+	for (let i = 0; i < itemLink5.length; i++) {
+		itemLink5[i].addEventListener("mouseover", () => {
+			itemTitle5.classList.add('_active');
+			itemList5.addEventListener("mouseleave", () => {
+				itemTitle5.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle6 = document.querySelector('.menu__item__title_6');
+const itemLink6 = document.querySelectorAll('.menu__item__link_6');
+const itemList6 = document.querySelector('.menu__item__list_6');
+if (itemLink6 && itemLink6) {
+	for (let i = 0; i < itemLink6.length; i++) {
+		itemLink6[i].addEventListener("mouseover", () => {
+			itemTitle6.classList.add('_active');
+			itemList6.addEventListener("mouseleave", () => {
+				itemTitle6.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle7 = document.querySelector('.menu__item__title_7');
+const itemLink7 = document.querySelectorAll('.menu__item__link_7');
+const itemList7 = document.querySelector('.menu__item__list_7');
+if (itemLink7 && itemLink7) {
+	for (let i = 0; i < itemLink7.length; i++) {
+		itemLink7[i].addEventListener("mouseover", () => {
+			itemTitle7.classList.add('_active');
+			itemList7.addEventListener("mouseleave", () => {
+				itemTitle7.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle8 = document.querySelector('.menu__item__title_8');
+const itemLink8 = document.querySelectorAll('.menu__item__link_8');
+const itemList8 = document.querySelector('.menu__item__list_8');
+if (itemLink8 && itemLink8) {
+	for (let i = 0; i < itemLink8.length; i++) {
+		itemLink8[i].addEventListener("mouseover", () => {
+			itemTitle8.classList.add('_active');
+			itemList8.addEventListener("mouseleave", () => {
+				itemTitle8.classList.remove('_active');
+			})
+		})
+	}
+}
+
+const itemTitle9 = document.querySelector('.menu__item__title_9');
+const itemLink9 = document.querySelectorAll('.menu__item__link_9');
+const itemList9 = document.querySelector('.menu__item__list_9');
+if (itemLink9 && itemLink9) {
+	for (let i = 0; i < itemLink9.length; i++) {
+		itemLink9[i].addEventListener("mouseover", () => {
+			itemTitle9.classList.add('_active');
+			itemList9.addEventListener("mouseleave", () => {
+				itemTitle9.classList.remove('_active');
+			})
+		})
+	}
+}
